@@ -1,0 +1,24 @@
+.img{
+    width: 150px;
+    height: 150px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  
+}
+
+.contenedor-img{
+    text-align: center;
+}
+
+
+.contenedor-img:hover{
+    background-color: red;
+}
+
+.contenedor-text::after {
+    font-family: 'Font Awesome 5 Free';
+    content: '\f1d8'; /* Código del icono */
+  }
